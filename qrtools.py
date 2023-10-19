@@ -19,7 +19,7 @@ def qr_generate(generate,output):
     #Mengacak nama file
     letters = ''.join(random.choice(letters)for i in range(10))
     
-    #generating process
+    #Proses mengahasilkan qrcode
     qr = qrcode.make(generate)
     if output is not None:
         #Jika user menggunakan argumen -o
@@ -31,4 +31,5 @@ def qr_generate(generate,output):
 
 def main():
     qr_generate(args.generate,args.output)
+
 main()
