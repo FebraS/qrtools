@@ -1,1 +1,1 @@
-The output file will come out here
+Output file akan disimpan pada direktori ini
