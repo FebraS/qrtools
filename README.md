@@ -1,12 +1,12 @@
 # QR Tools
 
-a Simple Tool for generate QR Code
+Tool sederhana untuk menghasilkan Kode QR
 
-Usage : 
+Penggunaan : 
 
 > $python qrtools.py -g "string" -o "output file name"
 
-## Before using the tool
-Before using this tool, you must install the qrcode module so that the tools run properly.
+## Sebelum menggunakan too ini
+Sebelum menggunakan tool ini, Anda harus menginstall modul qrcode agar alat ini dapat berjalan dengan baik.
 
 > pip install qrcode
